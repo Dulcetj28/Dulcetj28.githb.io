@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <title>Imagenes</title>
+        <link rel="stylesheet" href="../css/style.css"type="text/css"> 
+        <style type="text/css"> 
+            footer {
+                text-align: center;
+            }
+            /* Efecto escala de grises */
+            .grayscale {
+                filter: grayscale(100%);
+                transition: filter 0.5s ease-in-out;
+              }
+            .blur{
+                filter: blur(1px);
+            }
+            .sepia-contrast {
+                filter: sepia(70%) contrast(100%);
+                transition: filter 0.5s ease-in-out;
+            }
+            .sature {
+                filter: saturate(50%);
+                transition: filter 0.5s ease-in-out;
+            }
+            .opacity{
+                opacity: 0.5; /* La imagen será semi-transparente */
+                transition: opacity 0.5s ease-in-out;
+            }
+            .shadow-effect {
+                filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5));
+                transition: filter 0.5s ease-in-out;
+            }
+            .blur-invert{
+                filter: blur(2px) sepia(40%) contrast(100%);
+                transition: filter 0.5s ease-in-out;
+            }
+            .brig {
+                filter: brightness(80%); 
+                transition: filter 0.5s ease-in-out;
+            }
+            @keyframes float {
+                    0% {
+                transform: translateY(0); /* Posición inicial */
+             }            
+            50% {
+                transform: translateY(-20px); /* Mueve hacia arriba */
+              }
+            100% {
+                transform: translateY(0); /* Vuelve a la posición inicial */
+              }
+            }
+
+    
+            .animate_animated.animate_bounce {
+              animation: float 2s ease-in-out infinite; /* Animación continua */
+            }
+        
+        </style> 
+    </head>
+    <body>
+        <header>
+            <h1 class="animate__animated animate__pulse animate__repeat-3">&#128248; IMAGENES &#128248;</h1>
+        </header>
+        <nav>
+            <ul>
+               <li style="font-size: 15px;"><a href="../index.html" >&#127968</a></li>
+                <li> <a href="../html/mi_primera_pagina.html">Formatos</a></li> 
+                <li> <a href="../html/enlaces.html">Enlaces</a></li> 
+                <li> <a href="../html/Listas.html">Listas</a></li> 
+                <li> <a href="imagenes.html">Imagenes</a></li> 
+                <li> <a href="../html/audio.html">Audios</a></li> 
+                <li> <a href="../html/Tablas.html">Tablas</a></li> 
+                <li> <a href="../html/formularios.html"> Formularios</a> </li> 
+                <li><a href= "../html/video.html">Videos</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="animate__animated animate__pulse animate__delay-2s" >
+            <h2>Imagen Insertada con tag img</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel nisi ut ex imperdiet lacinia at sed justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec. Benemeriat Autonoma de Puebla Cras bibendum maximus magna in fermentum. In euismod rutrum ligula quis hendrerit. Nunc sed dignissim odio. Vestibulum porta massa tellus, varius semper mauris pharetra vehicula. Sed sit amet aliquam enim. Proin a dui eget orci venenatis imperdiet vel in risus. Integer ut arcu mollis, ultrices ex id, condimentum orci. Vestibulum dictum nisl vitae hendrerit lacinia. Sed ultrices ante vel lectus laoreet, quis lacinia elit volutpat. Nam ut facilisis tortor. Etiam vulputate sit amet tortor id porttitor. Suspendisse potenti. Aliquam in est a.</p> <br>
+            <img src="../imagenes/fondo-1.jpeg" alt="imagen-1" width="500" height="300" style="display: block; margin: auto; max-width: 100%; height: auto">
+            </section>
+            <section class="animate__animated animate__pulse animate__delay-3s" >
+            <h2>Imagen Insertada con tag pictura</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel nisi ut ex imperdiet lacinia at sed justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec. Cras bibendum maximus magna in fermentum. In euismod rutrum ligula quis hendrerit. Nunc sed dignissim odio. Vestibulum porta massa tellus varius semper mauris pharetra vehicula. Sed sit amet aliquam enim. Proin a dui eget orci venenatis imperdiet vel in risus. Integer ut arcu mollis, ultrices ex id, condimentum orci. Vestibulum dictum nisl vitae hendrerit lacinia. Sed ultrices ante vel lectus laoreet, quis lacinia elit volutpat. Nam ut facilisis tortor. Etiam vulputate sit amet tortor id porttitor. Suspendisse potenti. Aliquam in est a.</p> <br>
+            <img src="../imagenes/imagen3.gif" alt="imagen-2" width="550" height="300" style="display: block; margin: auto; max-width: 100%; height: auto">
+            </section>
+            <section class="animate__animated animate__pulse animate__delay-4s" >
+            <h2>Imagenes flotantes</h2>
+            <p>
+            <img class="animate_animated animate_bounce" src="../imagenes/mariposa-removebg.png" alt="mariposa" style="float: right, width:42px; height: 52px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel nisi ut ex imperdiet lacinia at sed justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec. Cras bibendum maximus magna in fermentum. In euismod rutrum ligula quis hendrerit.<br><br> 
+            <img class="animate_animated animate_bounce" src="../imagenes/mariposa-removebg.png" alt="mariposa" style="float: right, width:42px; height: 52px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel nisi ut ex imperdiet lacinia at sed justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec. Cras bibendum maximus magna in fermentum. In euismod rutrum ligula quis hendrerit.</p> <br>
+            </section>
+            <section class="animate__animated animate__pulse animate__delay-5s" >
+            <h2>Imagen con animación</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel nisi ut ex imperdiet lacinia at sed justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec. Cras bibendum maximus magna in fermentum. In euismod rutrum ligula quis hendrerit. Nunc sed dignissim odio. Vestibulum porta massa tellus, varius semper mauris pharetra vehicula. Sed sit amet aliquam enim. Proin a dui eget orci venenatis imperdiet vel in risus. Integer ut arcu mollis, ultrices ex id, condimentum orci. Vestibulum dictum nisl vitae hendrerit lacinia. Sed ultrices ante vel lectus laoreet, quis lacinia elit volutpat. Nam ut facilisis tortor. Etiam vulputate sit amet tortor id porttitor. Suspendisse potenti. Aliquam in est a.</p><br>
+            <img class="animate__animated animate__pulse animate__delay-4s animate__repeat-3" src="../imagenes/imagen-4.jpeg" alt="imagen-2" width="550" height="300" style="display: block; margin: auto; max-width: 100%; height: auto"> 
+            </section>
+         <section class="animate__animated animate__pulse animate__delay-6s" >
+         <h2> Imagenes con filtros</h2>
+             <p>
+                 consectetur adipiscing elit. Donec nec. Cras bibendum maximus magna in fermentum. In euismod rutrum ligula quis hendrerit. Nunc sed dignissim odio. Vestibulum porta massa tellus, varius semper mauris pharetra vehicula. Sed sit amet aliquam enim. Proin a dui eget orci venenatis imperdiet vel in risus. Integer ut arcu mollis, ultrices ex id, condimentum orci.  Vestibulum dictum nisl vitae hendrerit lacinia. Sed ultrices ante vel lectus laoreet, quis lacinia elit volutpat. Nam ut facilisis tortor. Etiam vulputate sit amet tortor id porttitor. Suspendisse potenti. Aliquam in
+             </p>
+             <br>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; justify-items: center;">
+            <img src="../imagenes/fondo-3.jpeg" alt="imagen-1" style="max-width: 100%; height: auto;">
+            <img class="grayscale" src="../imagenes/fondo-3.jpeg" alt="imagen-1" style="max-width: 100%; height: auto;">
+            <img class="blur" src="../imagenes/fondo-3.jpeg" alt="imagen-1" style="max-width: 100%; height: auto;">
+            
+            <img class="sepia-contrast" src="../imagenes/fondo-3.jpeg" alt="imagen-1" style="max-width: 100%; height: auto;">
+            <img class="sature" src="../imagenes/fondo-3.jpeg" alt="imagen-1" style="max-width: 100%; height: auto;">
+            <img class="opacity" src="../imagenes/fondo-3.jpeg" alt="imagen-1" style="max-width: 100%; height: auto;">
+            
+            <img class="shadow-effect" src="../imagenes/fondo-3.jpeg" alt="imagen-1" style="max-width: 100%; height: auto;">
+            <img class="blur-invert" src="../imagenes/fondo-3.jpeg" alt="imagen-1" style="max-width: 100%; height: auto;">
+            <img class="brig" src="../imagenes/fondo-3.jpeg" alt="imagen-1" style="max-width: 100%; height: auto;">
+
+            </div>
+         </section>
+        </main>
+        <footer>
+            <h6>Dulce Yanet Tomas Juarez</h6>
+        </footer>
+    </body>
+</html>
